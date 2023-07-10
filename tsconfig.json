@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "target": "es2022",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "outDir": "./dist",
+    "jsx": "react",
+    "module": "commonjs",                                /* Specify what module code is generated. */
+    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+    "sourceMap": true,
+    "skipLibCheck": true,                                 /* Skip type checking all .d.ts files. */
+    "strict": true                                      /* Enable all strict type-checking options. */
+  },
+  "include": [
+    "src",
+    "node_modules/vitest/globals.d.ts"
+  ],
+  "exclude": [
+    "src/test",
+    "src/**/*.test.*"
+  ]
+}

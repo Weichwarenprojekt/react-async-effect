@@ -1,0 +1,12 @@
+# editor configs
+.idea
+.vscode
+
+# npm related
+node_modules
+
+# build output
+dist
+
+# coverage
+coverage
