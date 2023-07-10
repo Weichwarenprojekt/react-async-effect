@@ -23,7 +23,7 @@ jobs:
       - run: npm ci
       - name: Version
         shell: bash
-        run: npx run wersion
+        run: npx wersion
         # push the changes
       - run: git push --follow-tags
       - name: Test
