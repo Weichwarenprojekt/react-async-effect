@@ -4,6 +4,7 @@
   "description": "Wrapper around useEffect that allows to run async operations in an effect, eliminating the sideffects",
   "main": "dist/useAsyncEffect.js",
   "types": "dist/useAsyncEffect.d.ts",
+  "repository": "https://github.com/Weichwarenprojekt/react-async-effect",
   "scripts": {
     "coverage": "vitest run --coverage",
     "test": "vitest run",
