@@ -1,5 +1,5 @@
 {
-  "name": "async-effect",
+  "name": "@weichwarenprojekt/react-async-effect",
   "version": "0.0.1",
   "description": "Wrapper around useEffect that allows to run async operations in an effect, eliminating the sideffects",
   "main": "dist/useAsyncEffect.js",
