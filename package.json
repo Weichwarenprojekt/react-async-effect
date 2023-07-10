@@ -9,8 +9,17 @@
     "test": "vitest run",
     "build": "tsc"
   },
-  "author": "",
-  "license": "ISC",
+  "authors": [
+    {
+      "name": "Tim Niederer",
+      "email": "tim.niederer@weichwarenprojekt.de"
+    },
+    {
+      "name": "Samuel Hübner",
+      "email": "samuel.huebner@weichwarenprojekt.de"
+    }
+  ],
+  "license": "MIT",
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
